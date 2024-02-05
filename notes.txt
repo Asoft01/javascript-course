@@ -1,0 +1,8 @@
+Falsy Values 
+false 
+0 
+''
+NaN
+undefined : something doesnt have a value
+
+null 
