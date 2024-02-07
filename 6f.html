@@ -8,10 +8,20 @@
 <body>
     <script>
         const randomNumber = Math.random(); 
+        let result = '';
         if (randomNumber < 0.5) {
-            console.log('heads');
+            // console.log('heads');
+            const result = 'heads'; 
         } else {
-            console.log('tails');
+            // console.log('tails');
+            const result = 'tails';
+        }
+
+        const guess = 'heads'; 
+        if(guess === result) {
+            console.log('You win!');
+        }else {
+            console.log('You lose!');
         }
     </script>
 </body>
